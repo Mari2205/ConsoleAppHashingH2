@@ -37,7 +37,7 @@ namespace ConsoleAppHashingH2
         {
             Console.WriteLine($"\n{hashName} Hashes \n");
             Console.WriteLine("Message 1 hash = " + Convert.ToBase64String(hashMessageNo1));
-            Console.WriteLine("Message 2 hash = " + Convert.ToBase64String(hashMessageNo2));
+            Console.WriteLine("Control hash = " + Convert.ToBase64String(hashMessageNo2));
         }
     }
 }
